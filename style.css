@@ -90,16 +90,21 @@ nav a {
     font-weight: 400;
     max-width: 585px;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0px auto;
+}
+
+main section {
+    margin-top: 120px;
 }
 
 .about {
     padding: 150px;
     border-radius: 10px;
     background: #FFF8F3;
-   
+
 }
 
 .sdes {
@@ -109,21 +114,53 @@ main{
     font-weight: 400;
 
 }
-.about-info-c{
+
+.about-info-c {
     display: flex;
     justify-content: space-around;
 }
-.info-a{
+
+.info-a {
     text-align: center;
     color: var #474747;
-font-size: 20px;
-font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
 
 }
-#what-do{
+
+#what-do {
     padding: 30px 345px;
 }
-.skill{
+
+.skill {
     display: flex;
     text-align: center;
+}
+
+.column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.sum{
+    display: flex;
+    gap: 50px;
+}
+.edu-level{
+    color:  #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.edu-time{
+    color: var, #757575;
+
+font-size: 20px;
+
+font-weight: 600;
+
+}
+.download{
+    text-align: center;
+    margin-top: 50px;
 }
